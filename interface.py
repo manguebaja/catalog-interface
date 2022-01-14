@@ -74,7 +74,7 @@ update(excelToList)
 # Cria um keybiding, de modo a toda vez que o usuário clicar em um item da lista este será introduzido na caixa de input
 my_list.bind("<<ListboxSelect>>", fillout)
 
-# Cria um keybiding, de modo a toda vez que o usuário digitar uma tecla uma função cherá chamada
+# Cria um keybiding, de modo a toda vez que o usuário pressionar uma tecla uma função será chamada
 my_entry.bind("<KeyRelease>", check)
 
 root.mainloop()
