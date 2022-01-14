@@ -3,7 +3,7 @@ import sys, os
 from pandas import DataFrame
 import pandas as pd
 
-# Inicializa o Tkinter, seta o título, o tamanho da tela e disabilita o redimensionamento da tela
+# Inicializa o Tkinter, seta o título, o tamanho da tela e desabilita o redimensionamento da tela
 root = Tk()
 root.title("Catálogo Baja")
 root.geometry('500x300')
